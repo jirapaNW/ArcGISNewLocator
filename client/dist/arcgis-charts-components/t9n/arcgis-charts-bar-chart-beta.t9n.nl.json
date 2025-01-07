@@ -1,0 +1,11 @@
+{
+  "errorHeading": "Ĳ_Error___________ä",
+  "tooManySelectedElements": {
+    "title": "Ĳ_Selection limit exceeded_________________________ä",
+    "message": "Ĳ_Selections are limited to 500 elements____________________ä"
+  },
+  "incompatibleChartVersion": {
+    "title": "Ĳ_Incompatible chart version___________________________ä",
+    "message": "Ĳ_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ä."
+  }
+}

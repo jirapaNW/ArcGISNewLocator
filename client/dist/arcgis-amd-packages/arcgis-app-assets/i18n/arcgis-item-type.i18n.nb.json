@@ -1,0 +1,14 @@
+{
+  "hosted": "hostet",
+  "hostedView": "hostet, visning",
+  "hostedPhotos": "hostet, bilder",
+  "hostedCollection": "hostet, samling",
+  "hostedMultidimensional": "hostet, flerdimensjonal",
+  "hostedCollectionMultidimensional": "hosted, samling, flerdimensjonal",
+  "collectionMultidimensional": "samling, flerdimensjonal",
+  "multidimensional": "flerdimensjonal",
+  "collection": "samling",
+  "photoLocations": "bilder",
+  "locatorView": "visning",
+  "utilityNetwork": "Utility Network"
+}

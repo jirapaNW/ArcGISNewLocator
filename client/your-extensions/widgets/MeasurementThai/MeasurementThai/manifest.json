@@ -1,0 +1,17 @@
+{
+  "name": "MeasurementThai",
+  "platform": "HTML",
+  "version": "1.0",
+  "wabVersion": "1.0",
+  "author": "GISC",
+  "description": "A measurement widget with Thai units",
+  "copyright": "Copyright © 2022 GIS Co., Ltd. All Rights Reserved.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": false,
+    "hasStyle": true,
+    "hasLocale": true,
+    "hasUIFile": true,
+    "hasSettingPage": false
+  }
+}

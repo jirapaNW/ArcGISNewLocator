@@ -1,0 +1,23 @@
+{
+  "created": 1736152498593,
+  "description": "",
+  "id": "2",
+  "modified": 1736152537667,
+  "owner": "portaladmin",
+  "tags": [],
+  "thumbnail": null,
+  "title": "Untitled experience 2",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Draft",
+    "version:1.15.0"
+  ],
+  "portalUrl": "https://meagisportal.mea.or.th/portal",
+  "username": "portaladmin",
+  "name": "Untitled experience 2",
+  "isLocalApp": true
+}

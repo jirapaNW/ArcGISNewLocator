@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ก้_Error___________ษฺ",
+  "tooManySelectedElements": {
+    "title": "ก้_Selection limit exceeded_________________________ษฺ",
+    "message": "ก้_Selections are limited to 500 elements____________________ษฺ"
+  },
+  "incompatibleChartVersion": {
+    "title": "ก้_Incompatible chart version___________________________ษฺ",
+    "message": "ก้_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ษฺ."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "errorHeading": "Ř_Error___________ů",
+  "tooManySelectedElements": {
+    "title": "Ř_Selection limit exceeded_________________________ů",
+    "message": "Ř_Selections are limited to 500 elements____________________ů"
+  },
+  "incompatibleChartVersion": {
+    "title": "Ř_Incompatible chart version___________________________ů",
+    "message": "Ř_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ů."
+  }
+}

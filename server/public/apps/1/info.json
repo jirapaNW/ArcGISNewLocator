@@ -1,0 +1,25 @@
+{
+  "created": 1732526117267,
+  "description": "",
+  "id": "1",
+  "modified": 1736223938311,
+  "owner": "portaladmin",
+  "tags": [],
+  "thumbnail": null,
+  "title": "NW-Create Widget",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Changed",
+    "version:1.15.0",
+    "publishVersion:1.15.0"
+  ],
+  "portalUrl": "https://meagisportal.mea.or.th/portal",
+  "username": "portaladmin",
+  "name": "NW-Create Widget",
+  "isLocalApp": true,
+  "url": null
+}

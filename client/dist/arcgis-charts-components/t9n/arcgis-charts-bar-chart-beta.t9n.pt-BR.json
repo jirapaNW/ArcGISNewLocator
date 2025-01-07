@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ã_Error___________Ç",
+  "tooManySelectedElements": {
+    "title": "ã_Selection limit exceeded_________________________Ç",
+    "message": "ã_Selections are limited to 500 elements____________________Ç"
+  },
+  "incompatibleChartVersion": {
+    "title": "ã_Incompatible chart version___________________________Ç",
+    "message": "ã_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________Ç."
+  }
+}

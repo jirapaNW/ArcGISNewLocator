@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ĺ_Error___________ľ",
+  "tooManySelectedElements": {
+    "title": "ĺ_Selection limit exceeded_________________________ľ",
+    "message": "ĺ_Selections are limited to 500 elements____________________ľ"
+  },
+  "incompatibleChartVersion": {
+    "title": "ĺ_Incompatible chart version___________________________ľ",
+    "message": "ĺ_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ľ."
+  }
+}

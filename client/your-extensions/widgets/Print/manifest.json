@@ -1,0 +1,24 @@
+{
+  "name": "Print",
+  "label": "Print",
+  "type": "widget",
+  "description": "Widget สำหรับการพิมพ์แผนที่",
+  "framework": "react",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "dependencies": ["jimu-core", "jimu-arcgis"],
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  },
+  "styleFiles": ["src/style.css"],
+  "hasSettingPage": true,
+  "settingPanel": {
+    "position": "right"
+  },
+  "useMapWidgetIds": ["mapWidget1"],
+  "widgetState": {
+    "latAddress": null,
+    "lonAddress": null
+  }
+}

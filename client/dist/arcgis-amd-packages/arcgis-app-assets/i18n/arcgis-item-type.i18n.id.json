@@ -1,0 +1,14 @@
+{
+  "hosted": "di-host",
+  "hostedView": "di-host, tampilan",
+  "hostedPhotos": "di-host, foto",
+  "hostedCollection": "di-hosting, kumpulan",
+  "hostedMultidimensional": "di-hosting, multidimensi",
+  "hostedCollectionMultidimensional": "di-hosting, kumpulan, multidimensi",
+  "collectionMultidimensional": "kumpulan, multidimensi",
+  "multidimensional": "multidimensi",
+  "collection": "koleksi",
+  "photoLocations": "foto",
+  "locatorView": "tampilkan",
+  "utilityNetwork": "jaringan utilitas"
+}

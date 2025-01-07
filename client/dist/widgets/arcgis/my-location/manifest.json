@@ -1,0 +1,34 @@
+{
+  "name": "my-location",
+  "label": "My Location (beta)",
+  "type": "widget",
+  "version": "1.15.0",
+  "exbVersion": "1.15.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "This is the widget which allows you to visualize and analyze the movement or trajectory of devices.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "dependency": "jimu-arcgis",
+  "settingDependency": "jimu-arcgis",
+  "enableDataAction": true,
+  "publishMessages": [],
+  "messageActions": [],
+  "defaultSize": {
+    "width": 360,
+    "height": 430
+  },
+  "properties": {
+    "coverLayoutBackground": true,
+    "canGenerateMultipleOutputDataSources": true,
+    "canConsumeDataAction": true
+  },
+  "excludeDataActions": [
+    "relatedData",
+    "elevation-profile-dev.*",
+    "arcgis-map.flash",
+    "arcgis-map.addToMap"
+  ],
+  "translatedLocales": [
+    "en"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "errorHeading": "Đ_Error___________ớ",
+  "tooManySelectedElements": {
+    "title": "Đ_Selection limit exceeded_________________________ớ",
+    "message": "Đ_Selections are limited to 500 elements____________________ớ"
+  },
+  "incompatibleChartVersion": {
+    "title": "Đ_Incompatible chart version___________________________ớ",
+    "message": "Đ_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ớ."
+  }
+}

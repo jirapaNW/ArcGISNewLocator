@@ -1,0 +1,7 @@
+{
+  "exampleConfigProperty": "test",
+  "apiUrl": "https://mapapi.mea.or.th/api/1.0/resources/address",
+  "searchPlaceholder": "Enter search term...",
+  "key": "b297KQHsZ2ti4WFPw9OfEUVLhrvaEFLgAq33QwTGwUEm511HOCY99xczhyqkWV3X",
+  "font": "test"
+}

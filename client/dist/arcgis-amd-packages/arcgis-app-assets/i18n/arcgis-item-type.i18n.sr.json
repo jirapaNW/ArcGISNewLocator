@@ -1,0 +1,14 @@
+{
+  "hosted": "hostovani",
+  "hostedView": "hostovani, prikaz",
+  "hostedPhotos": "hostovane, fotografije",
+  "hostedCollection": "hostovani, kolekcija",
+  "hostedMultidimensional": "hostovani, višedimenzionalno",
+  "hostedCollectionMultidimensional": "hostovani, kolekcija, višedimenzionalno",
+  "collectionMultidimensional": "kolekcija, višedimenzionalno",
+  "multidimensional": "višedimenzionalno",
+  "collection": "kolekcija",
+  "photoLocations": "fotografije",
+  "locatorView": "prikaz",
+  "utilityNetwork": "uslužna mreža"
+}

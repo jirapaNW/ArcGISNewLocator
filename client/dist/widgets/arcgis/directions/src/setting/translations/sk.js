@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Nastvenia trasy",searchSettings:"Nastavenia vyh\u013ead\xe1vania",routeUrl:"URL trasy",outputStops:"Zast\xe1vky",outputRoute:"Trasa",outputDirectionPoints:"Body naviga\u010dn\xfdch in\u0161trukci\xed",outputDirectionLines:"L\xednie naviga\u010dn\xfdch in\u0161trukci\xed"})}}}));

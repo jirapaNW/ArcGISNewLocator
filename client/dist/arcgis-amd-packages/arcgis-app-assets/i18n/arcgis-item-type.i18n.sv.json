@@ -1,0 +1,14 @@
+{
+  "hosted": "driftad",
+  "hostedView": "driftad, vy",
+  "hostedPhotos": "driftad, foton",
+  "hostedCollection": "driftad, samling",
+  "hostedMultidimensional": "driftad, flerdimensionell",
+  "hostedCollectionMultidimensional": "driftad, samling, flerdimensionell",
+  "collectionMultidimensional": "driftad, flerdimensionell",
+  "multidimensional": "flerdimensionell",
+  "collection": "samling",
+  "photoLocations": "foton",
+  "locatorView": "vy",
+  "utilityNetwork": "infrastruktursnätverk"
+}

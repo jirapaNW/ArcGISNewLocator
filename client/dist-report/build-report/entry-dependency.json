@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "name": "widgets/BufferArea/dist/runtime/widget",
+      "size": 3875
+    },
+    {
+      "name": "widgets/BufferArea/dist/setting/setting",
+      "size": 2100
+    },
+    {
+      "name": "widgets/custom-search/dist/runtime/widget",
+      "size": 26390
+    },
+    {
+      "name": "widgets/custom-search/dist/setting/setting",
+      "size": 2100
+    },
+    {
+      "name": "widgets/Print/dist/runtime/widget",
+      "size": 467131
+    },
+    {
+      "name": "widgets/Print/dist/setting/setting",
+      "size": 2102
+    },
+    {
+      "name": "widgets/simple/dist/runtime/widget",
+      "size": 1507
+    }
+  ],
+  "links": [
+    {
+      "source": "widgets/BufferArea/dist/runtime/widget",
+      "target": "esri/Graphic"
+    },
+    {
+      "source": "widgets/BufferArea/dist/runtime/widget",
+      "target": "esri/geometry/Point"
+    },
+    {
+      "source": "widgets/BufferArea/dist/runtime/widget",
+      "target": "esri/geometry/geometryEngine"
+    },
+    {
+      "source": "widgets/BufferArea/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/BufferArea/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/BufferArea/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "esri/Graphic"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "esri/geometry/Point"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "esri/geometry/geometryEngine"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/custom-search/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/custom-search/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-search/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/Print/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/Print/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/Print/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/Print/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/Print/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/simple/dist/runtime/widget",
+      "target": "jimu-core/index"
+    }
+  ]
+}

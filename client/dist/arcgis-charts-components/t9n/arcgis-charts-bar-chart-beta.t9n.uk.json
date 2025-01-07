@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ґ_Error___________Ї",
+  "tooManySelectedElements": {
+    "title": "ґ_Selection limit exceeded_________________________Ї",
+    "message": "ґ_Selections are limited to 500 elements____________________Ї"
+  },
+  "incompatibleChartVersion": {
+    "title": "ґ_Incompatible chart version___________________________Ї",
+    "message": "ґ_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________Ї."
+  }
+}

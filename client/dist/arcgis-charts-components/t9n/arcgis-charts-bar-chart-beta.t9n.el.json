@@ -1,0 +1,11 @@
+{
+  "errorHeading": "π_Error___________Ω",
+  "tooManySelectedElements": {
+    "title": "π_Selection limit exceeded_________________________Ω",
+    "message": "π_Selections are limited to 500 elements____________________Ω"
+  },
+  "incompatibleChartVersion": {
+    "title": "π_Incompatible chart version___________________________Ω",
+    "message": "π_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________Ω."
+  }
+}

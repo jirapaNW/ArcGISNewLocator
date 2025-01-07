@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({wayOfAddingData:"S\xe4tt att l\xe4gga till data",selectFromAccount:"V\xe4lj fr\xe5n konto",inputUrl:"Indata-URL",uploadFiles:"\xd6verf\xf6r filer",emptyListMessage:"Tomt listmeddelande",defaultPlaceholderText:"Det finns f\xf6r n\xe4rvarande inga infogade data.",curateACollection:"Hantera en samling"})}}}));

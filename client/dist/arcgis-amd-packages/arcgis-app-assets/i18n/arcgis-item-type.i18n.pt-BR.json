@@ -1,0 +1,14 @@
+{
+  "hosted": "hospedado",
+  "hostedView": "hospedado, visualização",
+  "hostedPhotos": "hospedado, fotos",
+  "hostedCollection": "hospedado, coleção",
+  "hostedMultidimensional": "hospedado, multidimensional",
+  "hostedCollectionMultidimensional": "hospedado, coleção, multidimensional",
+  "collectionMultidimensional": "coleção, multidimensional",
+  "multidimensional": "multidimensional",
+  "collection": "coleção",
+  "photoLocations": "fotos",
+  "locatorView": "visualização",
+  "utilityNetwork": "rede de utilitário"
+}

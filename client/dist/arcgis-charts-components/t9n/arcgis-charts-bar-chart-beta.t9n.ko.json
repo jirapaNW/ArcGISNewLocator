@@ -1,0 +1,11 @@
+{
+  "errorHeading": "한_Error___________빠",
+  "tooManySelectedElements": {
+    "title": "한_Selection limit exceeded_________________________빠",
+    "message": "한_Selections are limited to 500 elements____________________빠"
+  },
+  "incompatibleChartVersion": {
+    "title": "한_Incompatible chart version___________________________빠",
+    "message": "한_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________빠."
+  }
+}

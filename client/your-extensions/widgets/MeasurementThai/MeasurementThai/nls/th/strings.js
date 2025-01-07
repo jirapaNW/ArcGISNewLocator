@@ -1,0 +1,15 @@
+define({
+  _widgetLabel: "วัดระยะทางและคำนวณพื้นที่",
+  area: "พื้นที่",
+  distance: "ระยะทาง",
+  measurementResult: "ผลการวัด",
+  clear: "ล้างผลลัพธ์",
+  sqMeters: "ตร.ม.",
+  sqKilometers: "ตร.กม.",
+  rai: "ไร่",
+  ngan: "งาน",
+  sqWah: "ตร.วา",
+  meters: "เมตร",
+  kilometers: "กิโลเมตร",
+  miles: "ไมล์",
+});

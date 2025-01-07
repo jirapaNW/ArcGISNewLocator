@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Bokm\xe4rke",_widgetDescription:"En widget identifierar specifika geografiska platser och sparar dem f\xf6r senare referens.",addBookmark:"L\xe4gg till bokm\xe4rke",layoutTips:"Detta \xe4r det anpassningsbara omr\xe5det",bookmarkList:"Bokm\xe4rkeslista",graphicLayer:"Bokm\xe4rkets grafiklager"})}}}));

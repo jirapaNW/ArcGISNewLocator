@@ -1,0 +1,14 @@
+{
+  "hosted": "ホスト",
+  "hostedView": "ホスト、ビュー",
+  "hostedPhotos": "ホスト、写真",
+  "hostedCollection": "ホスト、コレクション",
+  "hostedMultidimensional": "ホスト、多次元",
+  "hostedCollectionMultidimensional": "ホスト、コレクション、多次元",
+  "collectionMultidimensional": "コレクション、多次元",
+  "multidimensional": "多次元",
+  "collection": "コレクション",
+  "photoLocations": "写真",
+  "locatorView": "ビュー",
+  "utilityNetwork": "ユーティリティ ネットワーク"
+}

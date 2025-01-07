@@ -1,0 +1,9 @@
+{
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://meagisportal.mea.or.th/portal",
+      "clientId": "x2w9UZqyVRapasMR",
+      "isWebTier": false
+    }
+  }
+}

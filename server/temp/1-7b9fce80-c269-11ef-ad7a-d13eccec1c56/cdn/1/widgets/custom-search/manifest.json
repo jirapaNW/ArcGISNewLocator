@@ -1,0 +1,24 @@
+{
+  "name": "custom-search",
+  "label": "Custom Search Widget",
+  "description": "A widget to perform custom search via an API.",
+  "framework": "react",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "dependencies": [
+    "jimu-core",
+    "jimu-arcgis"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  },
+  "styleFiles": [
+    "src/style.css"
+  ],
+  "hasSettingPage": true,
+  "settingPanel": {
+    "position": "right"
+  },
+  "properties": {}
+}

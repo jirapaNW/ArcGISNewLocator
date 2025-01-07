@@ -1,0 +1,11 @@
+{
+  "errorHeading": "بيت_Error___________لاحقة",
+  "tooManySelectedElements": {
+    "title": "بيت_Selection limit exceeded_________________________لاحقة",
+    "message": "بيت_Selections are limited to 500 elements____________________لاحقة"
+  },
+  "incompatibleChartVersion": {
+    "title": "بيت_Incompatible chart version___________________________لاحقة",
+    "message": "بيت_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________لاحقة."
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpEnvFilters, envContent, hideNodes, hideEnvClass, hideEnvNodes, hideModeClass, hideModeNodes;
+                helpInfo = window.location.hash.substring(1);
+                if (helpInfo.indexOf("-")) {
+                    [helpId, ...helpEnvFilters] = helpInfo.split("-");
+                    helpEnvFilters = helpEnvFilters.join("-");
+                }
+                else {
+                    helpId = helpInfo;
+                }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                hideEnvClass = (helpEnvFilters.includes("OnlineOnly") ? "PortalOnly": "OnlineOnly");
+                hideModeClass = (helpEnvFilters.includes("toolPaneOnly") ? "modelBuilderOnly": "toolPaneOnly");
+                if(document.getElementsByClassName) {
+                    hideEnvNodes = document.getElementsByClassName(hideEnvClass);
+                    hideModeNodes = document.getElementsByClassName(hideModeClass);
+                }
+                else {
+                    hideNodes = document.querySelectorAll(hideEnvClass);
+                }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                }
+                for(i=0; i < hideEnvNodes.length; i++) {
+                    hideEnvNodes[i].style.display = "none";
+                }
+                for(i=0; i < hideModeNodes.length; i++) {
+                    hideModeNodes[i].style.display = "none";
+                }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>T&ouml;&ouml;riist &quot;Summeeri l&auml;hedusest&quot; arvutab muude objektide m&auml;&auml;ratud vahemaa piires olevate objektide statistika. Vahemaa saab arvutada sirgjoonelise vahemaa v&otilde;i liikumisviisi alusel.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="summaryLayer">
+        <div>
+            <p>Kiht, mis v&otilde;etakse kokku l&auml;hedalasuva kihi kaugusel.
+            </p>
+            <p class="toolPaneOnly">Kihi nime all kuvatakse objektide arv. Arvesse l&auml;hevad kihi k&otilde;ik objektid, v&auml;lja arvatud need, mis on filtri abil eemaldatud. Keskkonnaseaded, n&auml;iteks  <b>t&ouml;&ouml;tlemise ulatus</b> ei peegeldu objektide arvus.
+            </p>
+        </div>
+    </div>
+    <div id="sumNearbyLayer">
+        <div>
+            <p>Punkt-, joon- v&otilde;i pol&uuml;goonkiht, mida kasutatakse l&auml;htepunktidena, mille &uuml;mber luuakse piirnevad alad, et teha kokkuv&otilde;tteid l&auml;hedalasuvate objektide kohta.
+            </p>
+            <p class="toolPaneOnly">Kihi nime all kuvatakse objektide arv. Arvesse l&auml;hevad kihi k&otilde;ik objektid, v&auml;lja arvatud need, mis on filtri abil eemaldatud. Keskkonnaseaded, n&auml;iteks  <b>t&ouml;&ouml;tlemise ulatus</b> ei peegeldu objektide arvus.
+            </p>
+        </div>
+    </div>
+    <div id="nearType">
+        <div>
+            
+            <p class="toolPaneOnly">Meetod, millega luuakse piiravad alad. Meetodiks v&otilde;ib olla sirgjooneline vahemaa v&otilde;i liikumisviis.
+            </p> 
+            <p class="modelBuilderOnly">Meetod, millega luuakse piiravad alad. Praegu on mudelites toetatud ainult sirgjooneline vahemaa.
+            </p>
+        </div>
+    </div>
+    <div id="distances">
+        <div>
+            <p>Vahemaa v&otilde;i aeg, mille alusel luuakse piiravad alad. Kui lisatakse mitu v&auml;&auml;rtust, kasutatakse igat v&auml;&auml;rtust k&otilde;ikide sisendobjektide piiravate alade arvutamiseks.
+            </p>
+        </div>
+    </div>
+    <div id="units">
+        <div>
+            <p>&Uuml;hikud, mida kasutatakse vahemaa v&otilde;i aja m&auml;&auml;ramiseks.
+            </p>
+        </div>
+    </div>
+    <div id="returnBoundaries">
+        <div>
+            <p>M&auml;&auml;rab, kas tulemuse kiht on piirnevad alad (m&auml;rgitud) v&otilde;i sama geomeetria kui l&auml;hedalasuv sisendkiht (m&auml;rkimata).
+            </p>
+        </div>
+    </div>
+    <div id="sumShape">
+        <div>
+            <p>M&auml;&auml;rab, kas arvutada igas piirnevas alas kokku v&otilde;etud objektide kogusuurus. Joonte puhul arvutatakse kogupikkus. Pol&uuml;goonide puhul arvutatakse kogupindala.
+            </p>
+        </div>
+    </div>
+    <div id="shapeUnits">
+        <div>
+            <p>&Uuml;hikud, mida kasutatakse summeeritud objektide kogusuuruse arvutamiseks.
+            </p>
+        </div>
+    </div>
+    <div id="summaryFields">
+        <div>
+            <p>Sisendkihi kokkuv&otilde;etavad numbri- v&otilde;i kuup&auml;evav&auml;ljad ja iga v&auml;lja kohta arvutatav statistika.
+            </p>
+        </div>
+    </div>
+    <div id="groupByField">
+        <div>
+            <p>Sisendkihi v&auml;li, mida kasutatakse statistiliste arvutuste jaoks andmete eraldamiseks eri gruppidesse.
+            </p>
+        </div>
+    </div>
+    <div id="minorityMajority">
+        <div>
+            <p>M&auml;&auml;rab, kas arvutada kokkuv&otilde;tte alal v&auml;hemuses (k&otilde;ige v&auml;hem domineerivad) v&otilde;i enamuses (k&otilde;ige rohkem domineerivad) olevad grupid.
+            </p>
+        </div>
+    </div>
+    <div id="percentShape">
+        <div>
+            <p>M&auml;&auml;rab, kas arvutada iga piiri sees igasse gruppi kuuluvate summeeritud objektide protsent.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>Selle kihi nimi, mis luuakse ja lisatakse kaardile.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Kausta nimi jaotises  <b>Minu sisu</b>, kuhu tulemused salvestatakse.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

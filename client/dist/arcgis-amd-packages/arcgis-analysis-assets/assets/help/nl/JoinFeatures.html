@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpEnvFilters, envContent, hideNodes, hideEnvClass, hideEnvNodes, hideModeClass, hideModeNodes;
+                helpInfo = window.location.hash.substring(1);
+                if (helpInfo.indexOf("-")) {
+                    [helpId, ...helpEnvFilters] = helpInfo.split("-");
+                    helpEnvFilters = helpEnvFilters.join("-");
+                }
+                else {
+                    helpId = helpInfo;
+                }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                hideEnvClass = (helpEnvFilters.includes("OnlineOnly") ? "PortalOnly": "OnlineOnly");
+                hideModeClass = (helpEnvFilters.includes("toolPaneOnly") ? "modelBuilderOnly": "toolPaneOnly");
+                if(document.getElementsByClassName) {
+                    hideEnvNodes = document.getElementsByClassName(hideEnvClass);
+                    hideModeNodes = document.getElementsByClassName(hideModeClass);
+                }
+                else {
+                    hideNodes = document.querySelectorAll(hideEnvClass);
+                }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                }
+                for(i=0; i < hideEnvNodes.length; i++) {
+                    hideEnvNodes[i].style.display = "none";
+                }
+                for(i=0; i < hideModeNodes.length; i++) {
+                    hideModeNodes[i].style.display = "none";
+                }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>De tool Aanmeldfeatures voegt attributen toe van &eacute;&eacute;n laag of tabel aan een andere laag of tabel op basis van ruimtelijke en attribuutrelaties. Optioneel kunnen statistieken worden berekend wanneer er meerdere overeenstemmende records zijn.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="targetLayer">
+        <div>
+            <p>De laag of tabel waarvan de attributen van de samengevoegde laag worden toegevoegd aan de attribuuttabel.
+            </p>
+            <p class="toolPaneOnly">Er wordt onder de naam van de laag weergeven hoeveel objecten er zijn. Het aantal omvat alle objecten in de laag, behalve objecten die via een filter zijn verwijderd. Omgevingsinstellingen, zoals  <b>Extent verwerken</b>, worden niet weerspiegeld in de objecttelling.
+            </p>
+        </div>
+    </div>
+    <div id="joinLayer">
+        <div>
+            <p>De laag of tabel met de attributen die aan de doellaag worden toegevoegd.
+            </p>
+            <p class="toolPaneOnly">Er wordt onder de naam van de laag weergeven hoeveel objecten er zijn. Het aantal omvat alle objecten in de laag, behalve objecten die via een filter zijn verwijderd. Omgevingsinstellingen, zoals  <b>Extent verwerken</b>, worden niet weerspiegeld in de objecttelling.
+            </p>
+        </div>
+    </div>
+    <div id="useSpatialRelationship">
+        <div>
+            <p>Specificeert of lagen worden samengevoegd op basis van een ruimtelijke relatie. Dit vereist dat beide lagen een geometrie hebben.
+            </p>
+        </div>
+    </div>
+    <div id="spatialRelationship">
+        <div>
+            <p>Specificeert de ruimtelijke relatie die bepaalt welke objecten worden samengevoegd. Functies in de samengevoegde laag die de gespecificeerde relatie tot de doellaag hebben, worden samengevoegd. De beschikbare relaties zijn afhankelijk van het geometrietype van de invoer.
+            </p>
+        </div>
+    </div>
+    <div id="spatialRelationshipDistance">
+        <div>
+            <p>De afstand tot de objecten in de doellaag die wordt gebruikt om te bepalen of objecten zullen worden samengevoegd.
+            </p>
+        </div>
+    </div>
+    <div id="spatialRelationshipDistanceUnits">
+        <div>
+            <p>De eenheden die worden gebruikt om de afstand te specificeren.
+            </p>
+        </div>
+    </div>
+    <div id="useAttributeRelationship">
+        <div>
+            <p>Specificeert of lagen worden samengevoegd op basis van overeenkomende veldwaarden. Dit is de enige optie indien &eacute;&eacute;n of meer van de invoeren een tabel is.
+            </p>
+        </div>
+    </div>
+    <div id="attributeRelationship">
+        <div>
+            <p>De attribuutrelatie die bepaalt welke objecten zullen worden samengevoegd. Objecten komen overeen als de veldwaarden in de samenvoegingslaag gelijk zijn aan veldwaarden in de doellaag.
+            </p>
+        </div>
+    </div>
+    <div id="joinOperation">
+        <div>
+            <p>Specificeert hoe joins worden behandeld als meerdere records uit de samenvoegingslaag aan de join-criteria voldoen. Kies &eacute;&eacute;n van de volgende opties:
+                <ul>
+                    <li> <b>E&eacute;n-op-&eacute;&eacute;n samenvoegen</b> - er wordt &eacute;&eacute;n enkele record in de samenvoegingslaag met elk object in de doellaag gecombineerd.
+                    </li>
+                    <li> <b>E&eacute;n-met-veel samenvoegen</b> - alle overeenkomende objecten in de samenvoegingslaag worden met de doellaag gecombineerd. De resultaatlaag zal meerdere records van het doelobject bevatten.
+                    </li>
+                </ul>
+                
+            </p>
+        </div>
+    </div>
+    <div id="handleMatchingRecords">
+        <div>
+            <p>Wanneer meerdere objecten in de samenvoegingslaag met een doelobject overeenkomen, dient u te specificeren wat u wilt doen: &eacute;&eacute;n enkele record uit de samenvoegingslaag combineren, de overzichtsstatistieken voor een gekozen veld berekenen voor alle overeenkomende records uit de samenvoegingslaag of alleen het aantal overeenkomende records tellen.
+            </p>
+        </div>
+    </div>
+    <div id="summaryFields">
+        <div>
+            <p>Wanneer er meerdere join-objecten zijn die met een doelobject overeenkomen, worden samenvattende statistieken voor alle overeenkomende records berekend. Specificeer de aantal- of de datumvelden van de samenvoegingslaag, en de statistieken die voor elk veld zullen worden berekend.
+            </p>
+        </div>
+    </div>
+    <div id="recordsToMatch">
+        <div>
+            <p>Wanneer er meerdere samenvoegingsobjecten zijn die met een doelobject overeenkomen, wordt de eerste record uit de attribuuttabel van de samenvoegingslaag in de uitvoer opgenomen. Kies optioneel een getal- of datumveld en de sorteervolgorde die de volgorde van de attribuuttabel zal bepalen.
+            </p>
+        </div>
+    </div>
+    <div id="joinType">
+        <div>
+            <p>Specificeert of de niet-overeenkomende doelobjecten worden opgenomen in de uitvoer. De optie  <b>Inner join</b> retourneert alleen overeenkomende doelrecords, terwijl de optie <b>Left join</b> alle doelrecords retourneert, zelfs als het doelobject geen overeenkomst heeft in de samenvoegingslaag.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>De naam van de laag of tabel die wordt aangemaakt en toegevoegd aan de kaart.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>De naam van de map in  <b>Mijn content</b> waarin het resultaat wordt opgeslagen.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

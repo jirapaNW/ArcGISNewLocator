@@ -1,0 +1,11 @@
+{
+  "errorHeading": "Į_Error___________š",
+  "tooManySelectedElements": {
+    "title": "Į_Selection limit exceeded_________________________š",
+    "message": "Į_Selections are limited to 500 elements____________________š"
+  },
+  "incompatibleChartVersion": {
+    "title": "Į_Incompatible chart version___________________________š",
+    "message": "Į_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________š."
+  }
+}

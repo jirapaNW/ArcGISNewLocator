@@ -1,0 +1,14 @@
+{
+  "hosted": "tárolt",
+  "hostedView": "tárolt, nézet",
+  "hostedPhotos": "tárolt, fényképek",
+  "hostedCollection": "tárolt, gyűjtemény",
+  "hostedMultidimensional": "tárolt, többdimenziós",
+  "hostedCollectionMultidimensional": "tárolt, gyűjtemény, többdimenziós",
+  "collectionMultidimensional": "gyűjtemény, többdimenziós",
+  "multidimensional": "többdimenziós",
+  "collection": "gyűjtemény",
+  "photoLocations": "fényképek",
+  "locatorView": "megtekintés",
+  "utilityNetwork": "utility network"
+}

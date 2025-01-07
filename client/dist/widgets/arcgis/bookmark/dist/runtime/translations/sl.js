@@ -1,0 +1,1 @@
+System.register([],(function(a){return{execute:function(){a({_widgetLabel:"Zaznamek",_widgetDescription:"Pripomo\u010dek za prepoznavanje dolo\u010denih geografskih lokacij in shranjevanje za poznej\u0161o referenco.",addBookmark:"Dodaj zaznamek",layoutTips:"To je prilagodljiva povr\u0161ina",bookmarkList:"Seznam zaznamkov",graphicLayer:"Ustvari zaznamek sloja grafike"})}}}));

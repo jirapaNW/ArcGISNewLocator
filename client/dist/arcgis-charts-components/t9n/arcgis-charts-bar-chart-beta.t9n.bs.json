@@ -1,0 +1,11 @@
+{
+  "errorHeading": "Č_Error___________ž",
+  "tooManySelectedElements": {
+    "title": "Č_Selection limit exceeded_________________________ž",
+    "message": "Č_Selections are limited to 500 elements____________________ž"
+  },
+  "incompatibleChartVersion": {
+    "title": "Č_Incompatible chart version___________________________ž",
+    "message": "Č_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ž."
+  }
+}

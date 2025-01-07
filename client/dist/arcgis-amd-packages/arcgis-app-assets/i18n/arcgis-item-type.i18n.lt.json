@@ -1,0 +1,14 @@
+{
+  "hosted": "talpinama",
+  "hostedView": "talpinama, rodinys",
+  "hostedPhotos": "talpinama, nuotraukos",
+  "hostedCollection": "talpinama, rinkinys",
+  "hostedMultidimensional": "talpinama, multidimensinis",
+  "hostedCollectionMultidimensional": "talpinama, rinkinys, multidimensinis",
+  "collectionMultidimensional": "rinkinys, multidimensinis",
+  "multidimensional": "multidimensinis",
+  "collection": "rinkinys",
+  "photoLocations": "nuotraukos",
+  "locatorView": "rodinys",
+  "utilityNetwork": "utility network"
+}

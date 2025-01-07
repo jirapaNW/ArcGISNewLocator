@@ -1,0 +1,18 @@
+{
+  "cancel": "Batalkan",
+  "reset": "Atur Ulang",
+  "resetting": "Mengatur ulang...",
+  "save": "Simpan",
+  "saving": "Menyimpan...",
+  "itemClassificationLabel": "Klasifikasi",
+  "itemClassificationCategoryLabel": "Label kategori klasifikasi item",
+  "itemClassificationEditLabel": "Edit Klasifikasi",
+  "itemClassificationValidateError": "Validasi gagal, nilai klasifikasi item tidak akan terisi! Silakan edit dan simpan yang baru.",
+  "classificationValueSaved": "Nilai klasifikasi telah disimpan",
+  "classificationNotificationHandler": "Pengelola pemberitahuan klasifikasi",
+  "openModal": "Buka modal",
+  "currentSelections": "Pilihan Saat Ini",
+  "fieldSelectionError": "Ini adalah kolom yang wajib diisi.",
+  "selectAnOption": "Pilih sebuah opsi",
+  "selectOptions": "Pilih opsi"
+}

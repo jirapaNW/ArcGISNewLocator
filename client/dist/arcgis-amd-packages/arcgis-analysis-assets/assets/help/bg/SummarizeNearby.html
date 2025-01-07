@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpEnvFilters, envContent, hideNodes, hideEnvClass, hideEnvNodes, hideModeClass, hideModeNodes;
+                helpInfo = window.location.hash.substring(1);
+                if (helpInfo.indexOf("-")) {
+                    [helpId, ...helpEnvFilters] = helpInfo.split("-");
+                    helpEnvFilters = helpEnvFilters.join("-");
+                }
+                else {
+                    helpId = helpInfo;
+                }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                hideEnvClass = (helpEnvFilters.includes("OnlineOnly") ? "PortalOnly": "OnlineOnly");
+                hideModeClass = (helpEnvFilters.includes("toolPaneOnly") ? "modelBuilderOnly": "toolPaneOnly");
+                if(document.getElementsByClassName) {
+                    hideEnvNodes = document.getElementsByClassName(hideEnvClass);
+                    hideModeNodes = document.getElementsByClassName(hideModeClass);
+                }
+                else {
+                    hideNodes = document.querySelectorAll(hideEnvClass);
+                }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                }
+                for(i=0; i < hideEnvNodes.length; i++) {
+                    hideEnvNodes[i].style.display = "none";
+                }
+                for(i=0; i < hideModeNodes.length; i++) {
+                    hideModeNodes[i].style.display = "none";
+                }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Инструментът Обобщаване В близост изчислява статистически данни за обекти в рамките на определено разстояние от други обекти. Разстоянието може да се изчисли с помощта на разстояние по права линия или режим на пътуване.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="summaryLayer">
+        <div>
+            <p>Слоят, който ще бъде обобщен на разстояние от близкия слой.
+            </p>
+            <p class="toolPaneOnly">Под името на слоя се показва брой обекти. Броят включва всички обекти в слоя, с изключение на обекти, които са били премахнати с помощта на филтър. Настройки на средата като  <b>Обхва на обработка</b> не са отразени в броя на обектите.
+            </p>
+        </div>
+    </div>
+    <div id="sumNearbyLayer">
+        <div>
+            <p>Слоят с точка, линия или полигон, който ще се използва като начални местоположения, около които ще бъдат създадени ограничаващи зони за обобщаване на близки обекти.
+            </p>
+            <p class="toolPaneOnly">Под името на слоя се показва брой обекти. Броят включва всички обекти в слоя, с изключение на обекти, които са били премахнати с помощта на филтър. Настройки на средата като  <b>Обхва на обработка</b> не са отразени в броя на обектите.
+            </p>
+        </div>
+    </div>
+    <div id="nearType">
+        <div>
+            
+            <p class="toolPaneOnly">Методът, с който ще бъдат създадени ограничаващите зони. Методът може да бъде разстояние по права линия или режим на пътуване.
+            </p> 
+            <p class="modelBuilderOnly">Методът, с който ще бъдат създадени ограничаващите зони. В момента разстоянието по права линия е единственият метод, поддържан в моделите.
+            </p>
+        </div>
+    </div>
+    <div id="distances">
+        <div>
+            <p>Разстоянието или времето, което ще се използва за създаване на ограничаващи зони. Ако се добавят няколко стойности, всяка стойност ще се използва за изчисляване на ограничаващите зони за всички входни обекти.
+            </p>
+        </div>
+    </div>
+    <div id="units">
+        <div>
+            <p>Мерните единици, които ще се използват за определяне на разстоянието или времето.
+            </p>
+        </div>
+    </div>
+    <div id="returnBoundaries">
+        <div>
+            <p>Указва дали резултатният слой ще бъде ограничаващите зони (маркирано) или същата геометрия като входния близък слой (немаркирано).
+            </p>
+        </div>
+    </div>
+    <div id="sumShape">
+        <div>
+            <p>Указва дали да се изчисли общият размер на обектите, обобщени във всяка ограничаваща зона. За линиите ще се изчислява общата дължина. За полигони ще се изчислява общата площ.
+            </p>
+        </div>
+    </div>
+    <div id="shapeUnits">
+        <div>
+            <p>Единиците, които ще се използват за изчисляване на общия размер на обобщените обекти.
+            </p>
+        </div>
+    </div>
+    <div id="summaryFields">
+        <div>
+            <p>Полетата за число или дата от входния слой за обобщаване и статистическите данни, които ще бъдат изчислени за всяко поле.
+            </p>
+        </div>
+    </div>
+    <div id="groupByField">
+        <div>
+            <p>Полето от входния слой, използвано за разделяне на данните в отделни групи за статистически изчисления.
+            </p>
+        </div>
+    </div>
+    <div id="minorityMajority">
+        <div>
+            <p>Указва дали да се изчисляват групи по малцинства (най-малко доминиращите) и мнозинства (най-доминиращите) във всяка обобщена област.
+            </p>
+        </div>
+    </div>
+    <div id="percentShape">
+        <div>
+            <p>Показва дали да се зачислява процента на обобщените обекти, които принадлежат към всяка група в рамките на всяка граница.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>Името на слоя, който ще бъде създаден и добавен към картата.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Името на папката в  <b>Моето съдържание</b>, където резултатите ще бъдат запазени.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

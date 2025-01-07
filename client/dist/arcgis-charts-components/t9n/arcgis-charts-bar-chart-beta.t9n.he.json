@@ -1,0 +1,11 @@
+{
+  "errorHeading": "כן_Error___________ש",
+  "tooManySelectedElements": {
+    "title": "כן_Selection limit exceeded_________________________ש",
+    "message": "כן_Selections are limited to 500 elements____________________ש"
+  },
+  "incompatibleChartVersion": {
+    "title": "כן_Incompatible chart version___________________________ש",
+    "message": "כן_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ש."
+  }
+}

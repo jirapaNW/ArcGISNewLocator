@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Bogm\xe6rke",_widgetDescription:"En widget identificerer bestemte geografiske placeringer og gemmer dem til senere reference.",addBookmark:"Tilf\xf8j bogm\xe6rke",layoutTips:"Dette er det tilpasede omr\xe5de",bookmarkList:"Bogm\xe6rkeliste",graphicLayer:"Bogm\xe6rke-grafiklag"})}}}));

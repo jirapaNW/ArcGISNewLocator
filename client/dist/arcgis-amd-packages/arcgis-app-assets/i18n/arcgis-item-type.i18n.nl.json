@@ -1,0 +1,14 @@
+{
+  "hosted": "gehost",
+  "hostedView": "gehost, weergave",
+  "hostedPhotos": "gehost, foto's",
+  "hostedCollection": "gehoste verzameling",
+  "hostedMultidimensional": "gehost, multidimensionaal",
+  "hostedCollectionMultidimensional": "gehost, verzameling, multidimensionaal",
+  "collectionMultidimensional": "verzameling, multidimensionaal",
+  "multidimensional": "multidimensionaal",
+  "collection": "verzameling",
+  "photoLocations": "foto's",
+  "locatorView": "weergave",
+  "utilityNetwork": "utility network"
+}

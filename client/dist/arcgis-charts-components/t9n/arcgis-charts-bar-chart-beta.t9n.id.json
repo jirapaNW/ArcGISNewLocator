@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ng_Error___________ny",
+  "tooManySelectedElements": {
+    "title": "ng_Selection limit exceeded_________________________ny",
+    "message": "ng_Selections are limited to 500 elements____________________ny"
+  },
+  "incompatibleChartVersion": {
+    "title": "ng_Incompatible chart version___________________________ny",
+    "message": "ng_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ny."
+  }
+}

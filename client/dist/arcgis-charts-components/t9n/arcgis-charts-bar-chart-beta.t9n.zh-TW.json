@@ -1,0 +1,11 @@
+{
+  "errorHeading": "試_Error___________驗",
+  "tooManySelectedElements": {
+    "title": "試_Selection limit exceeded_________________________驗",
+    "message": "試_Selections are limited to 500 elements____________________驗"
+  },
+  "incompatibleChartVersion": {
+    "title": "試_Incompatible chart version___________________________驗",
+    "message": "試_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________驗."
+  }
+}

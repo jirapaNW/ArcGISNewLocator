@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ø_Error___________å",
+  "tooManySelectedElements": {
+    "title": "ø_Selection limit exceeded_________________________å",
+    "message": "ø_Selections are limited to 500 elements____________________å"
+  },
+  "incompatibleChartVersion": {
+    "title": "ø_Incompatible chart version___________________________å",
+    "message": "ø_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________å."
+  }
+}

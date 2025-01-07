@@ -1,0 +1,11 @@
+{
+  "errorHeading": "ķ_Error___________ū",
+  "tooManySelectedElements": {
+    "title": "ķ_Selection limit exceeded_________________________ū",
+    "message": "ķ_Selections are limited to 500 elements____________________ū"
+  },
+  "incompatibleChartVersion": {
+    "title": "ķ_Incompatible chart version___________________________ū",
+    "message": "ķ_Chart version ${ chartVersion } is not compatible with this application. Some features may not be available_______________________________________________________ū."
+  }
+}

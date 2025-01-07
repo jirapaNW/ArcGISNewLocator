@@ -1,0 +1,44 @@
+<div>
+  <div class="toolbar">
+    <div class="tools">
+      <button
+        type="button"
+        class="btn-measure-area"
+        data-dojo-type="dijit/form/Button"
+        data-dojo-attach-point="btnAreaTool"
+        data-dojo-attach-event="click:_activateAreaMeasurement"
+      >
+        <div class="icon"></div>
+      </button>
+      <button
+        type="button"
+        class="btn-measure-distance"
+        data-dojo-type="dijit/form/Button"
+        data-dojo-attach-point="btnDistanceTool"
+        data-dojo-attach-event="click:_activateDistanceMeasurement"
+      >
+        <div class="icon"></div>
+      </button>
+    </div>
+    <div class="separator"></div>
+    <div class="unit" data-dojo-attach-point="divUnit" style="display: none">
+      <select
+        data-dojo-attach-point="selectUnit"
+        data-dojo-attach-event="change:_onUnitChange"
+      ></select>
+    </div>
+  </div>
+  <div class="result" data-dojo-attach-point="divResult">
+    <div class="title-result">${nls.measurementResult}</div>
+    <div class="text-result" data-dojo-attach-point="txtResult"></div>
+    <button
+      type="button"
+      class="jimu-btn"
+      data-dojo-attach-point="btnClearResult"
+      data-dojo-attach-event="click:_clearMeasurement"
+      disabled="true"
+    >
+      ${nls.clear}
+    </button>
+  </div>
+</div>

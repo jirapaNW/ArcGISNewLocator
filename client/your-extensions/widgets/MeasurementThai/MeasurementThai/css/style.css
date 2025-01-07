@@ -1,0 +1,108 @@
+.jimu-widget-MeasurementThai .toolbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools {
+  display: flex;
+  align-items: center;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button:hover {
+  cursor: pointer;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button.active {
+  background-image: url("../images/buttonActive.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button:last-child {
+  margin-left: 7px;
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button.btn-measure-area .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/MeasureArea.png");
+}
+
+.jimu-widget-MeasurementThai .toolbar .tools button.btn-measure-distance .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/MeasureDistance.png");
+}
+
+.jimu-widget-MeasurementThai .toolbar .separator {
+  width: 1px;
+  margin: 0 7px;
+  background-color: #ccc;
+  height: 24px;
+}
+
+.jimu-widget-MeasurementThai .toolbar .unit select {
+  border: 0;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.jimu-widget-MeasurementThai .result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.jimu-widget-MeasurementThai .result .title-result {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: thin solid rgb(51, 51, 51);
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  width: 95%;
+}
+
+.jimu-widget-MeasurementThai .result .text-result {
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 40px;
+  min-height: 40px;
+}
+
+/* .jimu-widget-MeasurementThai .result button {
+  padding: 0 18px;
+  height: 32px;
+  line-height: 33px;
+  min-width: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+  background-color: #485566;
+  color: #ffffff;
+}
+
+.jimu-widget-MeasurementThai .result button:hover {
+  cursor: pointer;
+}
+
+.jimu-widget-MeasurementThai .result button:disabled {
+  background-color: #adadad;
+  color: #d8d8d8;
+} */
